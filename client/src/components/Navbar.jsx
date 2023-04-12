@@ -74,7 +74,7 @@ const Navbar = () => {
                                     Profile
                                 </li>
                             </NavLink>
-                            <button onClick={handleLogout}>Logout</button>
+                            <button className='text-red-500' onClick={handleLogout}>Logout</button>
                         </>
                     ) : (
                         <>
